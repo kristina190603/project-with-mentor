@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "details": "100 грамм",
+      "price": "210",
+      "quantity": "Кофе",
+      "category": "Эспрессо",
+      "sale": "0",
+      "urlImg": "https://i-coffee.me/wp-content/uploads/2021/12/%D1%8D%D1%81%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE.jpg",
+      "id": 2
+    },
+    {
+      "details": "100 грамм",
+      "price": "250",
+      "quantity": "Кофе",
+      "category": "Капучино",
+      "sale": "2",
+      "urlImg": "https://domos.ru/images/blog/13677/Kapuchino_3.jpg",
+      "id": 3
+    },
+    {
+      "details": "100 грамм",
+      "price": "180",
+      "quantity": "Кофе",
+      "category": "Латте",
+      "sale": "2",
+      "urlImg": "https://coffee61.ru/wa-data/public/photos/68/03/368/368.970.jpg",
+      "id": 4
+    },
+    {
+      "details": "100 грамм",
+      "price": "250",
+      "quantity": "Кофе",
+      "category": "Раф-кофе",
+      "sale": "0",
+      "urlImg": "https://coffeegravity.ru/wp-content/uploads/2020/12/%D0%A0%D0%B0%D1%84.jpg",
+      "id": 5
+    },
+    {
+      "details": "100 грамм",
+      "price": "150",
+      "quantity": "Кофе",
+      "category": "Фраппе-кофе",
+      "sale": "0",
+      "urlImg": "https://cdn.lifehacker.ru/wp-content/uploads/2020/05/shutterstock_778250395-1_1589908954.jpg",
+      "id": 6
+    },
+    {
+      "details": "100 грамм",
+      "price": "110",
+      "quantity": "Кофе",
+      "category": "Американо",
+      "sale": "0",
+      "urlImg": "https://kofella.net/images/stories/vseokofe/kofe-amerikano-chto-eto-takoye.jpg",
+      "id": 7
+    }
+  ]
+}

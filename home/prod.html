@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./prod.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <div class="header">
+      <div class="overlay">
+        <div class="container1">
+          <div class="block1">
+            <div class="header1">
+              <div class="header_logo1">
+                <img src="./img/logo.png" alt="logo" />
+                <h2>Coffee shop</h2>
+              </div>
+              <div class="header_center1">
+                <ul>
+                  <a href="./home.html">
+                    <li style="font-size: 20px">Главная</li>
+                  </a>
+                  <a href="./products.html">
+                    <li style="font-size: 20px">Продукты</li>
+                  </a>
+                  <a href="./aboutUs.html">
+                    <li style="font-size: 20px">О нас</li>
+                  </a>
+                  <a href="./ourPartners.html">
+                    <li style="font-size: 20px">Наши партнеры</li>
+                  </a>
+                </ul>
+              </div>
+              <div class="search-box1">
+                <input
+                  type="text"
+                  class="search-txt"
+                  placeholder="Введите категорию"
+                />
+                <a href="" class="search-btn">
+                  <img
+                    src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png"
+                    alt=""
+                    width="20px"
+                  />
+                </a>
+              </div>
+
+              <div id="open-admin"></div>
+            </div>
+          </div>
+        </div>
+        <!--?=========== navbar end ==========-->
+
+        <!-- ! CREATE START -->
+
+        <div class="section__add">
+          <div class="accordion__header">Добавить товар</div>
+          <div id="accordion__body">
+            <input
+              type="text"
+              class="section__add_details"
+              placeholder="Описание"
+            />
+            <input
+              type="number"
+              class="section__add_price"
+              placeholder="Цена"
+            />
+            <input
+              type="text"
+              class="section__add_quantity"
+              placeholder="Наименование"
+            />
+            <input
+              type="text"
+              class="section__add_category"
+              placeholder="Категория"
+            />
+            <input
+              type="number"
+              class="section__add_sales"
+              placeholder="Скидки"
+            />
+            <input
+              type="url"
+              class="section__add_url"
+              placeholder="URL изображение"
+            />
+            <button class="section__add_btn-add">Add</button>
+          </div>
+        </div>
+        <!-- ? CREATE END -->
+
+        <!-- ! READ START -->
+        <section id="section__read"></section>
+        <!-- ? READ END -->
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
